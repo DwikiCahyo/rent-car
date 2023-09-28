@@ -25,32 +25,48 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Why Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-success">Register</button>
-              </li>
-            </ul>
+          <!-- offcanvas sidebar -->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="fw-bold">Rent Car</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item mt-2">
+                  <a class="nav-link" href="#">Our Service</a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" href="#">Why Us</a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" href="#">Testimonial</a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item mt-2">
+                  <button class="btn btn-success">Register</button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>

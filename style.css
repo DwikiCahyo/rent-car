@@ -10,7 +10,13 @@
   --main-bg-color: rgba(241, 243, 255, 1);
   --secondary-bg-color: rgba(13, 40, 166, 1);
   --card-border-color: rgba(208, 208, 208, 1);
-  --butoon-background-color: #5cb85f;
+  --button-background-color: #5cb85f;
+}
+
+.btn.btn-success {
+  background-color: var(--button-background-color);
+  border: 0;
+  border-radius: 0;
 }
 
 p {
@@ -35,7 +41,7 @@ nav.navbar {
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid var(--button-background-color);
 }
 
 .main-section {
@@ -205,6 +211,10 @@ ul {
   color: var(--secondary-bg-color);
   font-size: 32px;
   margin-right: 20px;
+}
+
+.offcanvas {
+  width: 80% !important;
 }
 
 @media (max-width: 768px) {
