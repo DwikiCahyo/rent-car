@@ -225,8 +225,8 @@ ul {
   .bg-car {
     position: absolute;
     background-color: var(--secondary-bg-color);
-    height: 40%;
-    width: 60%;
+    height: 35%;
+    width: 95%;
     bottom: 0;
     right: 0;
     border-radius: 100px 0 0 0;
